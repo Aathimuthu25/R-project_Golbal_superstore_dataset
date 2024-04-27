@@ -1,6 +1,7 @@
 # <p align="center"> R-project-on-Global-Superstore </p>
 
-# <p align="center"> ![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/b859c143-2f02-4c9a-8524-6fe872627f28) </p>
+# <p align="center"> ![Img_1](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/1b7570d1-5d0c-49cd-92c6-9ad712d0c2e2)
+ </p>
 
 ## Overview 
 This R project aims to analyze the Global Superstore dataset to gain insights into sales trends, customer behavior, and geographical patterns. The dataset contains information about orders, customers, products, and sales across multiple regions and categories.
@@ -42,7 +43,7 @@ paste("Column Names Present in a Dataset are : ")
 colnames(a)
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_2](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/106f6bab-3446-4b2b-85e3-2ade1c988d84)
 </p>
 
 
@@ -78,7 +79,7 @@ profits_by_segment
 
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_3](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/94fee688-6cc2-4c40-a920-babeb44c3537)
 </p>
 
 
@@ -115,7 +116,7 @@ ggplot(total_sales_by_country, aes(x = reorder(Country, -x), y = x)) +
   labs(title = "Total Sales by Country")
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_4](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/85f89a39-f070-4568-ae58-c8f60858977a)
 </p>
 
 
@@ -138,7 +139,7 @@ top_selling = a%>%
 top_selling
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_5](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/40523247-6fcb-4a67-bd37-0addeeb2af2c)
 </p>
 
 
@@ -187,7 +188,7 @@ ggplot(sales_by_segment, aes(x = Segment, y = Sales, fill = Segment)) +
   theme_minimal()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_6](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/237ca074-d0f4-4ca0-be77-1be886b08bf8)
 </p>
 
 ```r
@@ -212,7 +213,7 @@ print("Strong Correlations:")
 print(strong_correlations)
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_7](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/e3d5b75a-7bc4-482e-8837-7aca5f8f4ee7)
 </p>v
 
 
@@ -247,7 +248,7 @@ ggplot(profits_by_segment, aes(x = Segment, y = Profit, fill = Segment)) +
   theme_minimal()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/03a29863-f0a6-4834-b2cc-ee05d5ac9713)
+# <p align="center">![Img_8](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/ee4eecbd-bfe7-4801-80bb-7ff7981016d1)
 </p>
 
 
@@ -299,22 +300,22 @@ print("Products with Low Profit Margins:")
 print(head(low_margin_products))
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/781b6a92-a883-4cf6-96b0-0bc76f7902fd)
+# <p align="center">![Img_9](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/3087338c-6822-4436-bc8d-eeff68f0139b)
 </p>
 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/bcdc96ba-c717-4270-82b5-3b64342474da)
+# <p align="center">![Img_10](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/f6600cd9-6085-4c19-8f4e-1d8aa8b6f511)
 </p>
 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/3bcbfc0e-619f-4b42-8942-5e65fbc377a7)
+# <p align="center">![Img_11](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/6115c5bb-3dda-4e5d-9e7e-85fd78c5a789)
 </p>
 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/d68bcaf3-be95-4406-a42a-41e0c393b7ce)
+# <p align="center">![Img_12](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/6b3d675a-40a7-4d43-bb6b-98bc092dd7c3)
 </p>
 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/b605093e-4ef5-4255-8a92-f3e7b20769c4)
+# <p align="center">![Img_13](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/68b30b42-0938-457a-a1a5-87c775cafc65)
 </p>
 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/af94b487-c091-4e3a-a36d-b00df2228787)
+# <p align="center">![Img_14](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/0064453a-7b32-413d-8815-f96333c53754)
 </p>
 
 ```r
@@ -337,7 +338,7 @@ correlation_matrix <- cor(a[, c("Quantity", "Sales", "Profit")])
 correlation_matrix
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/R-project-on-Global-Superstore/assets/96239993/b8bc8725-960c-4b7c-990b-7be1f80e4073)
+# <p align="center">![Img_15](https://github.com/Aathimuthu25/R-project_Golbal_superstore_dataset/assets/158067286/55ea539a-1933-41ab-bddf-a489dff13150)
 </p>
 
 
